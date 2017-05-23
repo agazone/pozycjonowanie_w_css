@@ -1,0 +1,151 @@
+body {
+  background-color: yellow;
+}
+
+#outerDiv {
+  margin: auto;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  position: relative;
+  border: 2px solid white;
+}
+
+.inner1 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: red;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner2 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: blue;
+  top: 0;
+  right: 96px;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner3 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: green;
+  top: 0;
+  right: 200px;
+  float: right;
+  border: 2px solid white;
+}
+
+.inner4 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: yellow;
+  top: 100px;
+  left: 0;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner5 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: black;
+  top: 100px;
+  left: 100px;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner6 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: orange;
+  top: 100px;
+  left: 200px;
+  float: right;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner7 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: purple;
+  top: 200px;
+  bottom: 0;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner8 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: gray;
+  top: 200px;
+  left: 100px;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.inner9 {
+  width: 33.3%;
+  height: 33.3%;
+  background-color: #ffd2fd;
+  top: 200px;
+  left: 200px;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9 {
+  width:50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 25%;
+  background-color: white;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: black;
+}
+
+.circle1 {
+  background-color: #ffd2fd;
+}
+
+.circle2 {
+  background-color: gray;
+}
+
+.circle3 {
+  background-color: purple;
+}
+
+.circle4 {
+  background-color: green;
+}
+
+.circle5 {
+  background-color: red;
+}
+
+.circle6 {
+  background-color: blue;
+}
+
+.circle7 {
+  background-color: orange;
+}
+
+.circle8 {
+  background-color: yellow;
+}
+
+.circle9 {
+  background-color: black;
+}
